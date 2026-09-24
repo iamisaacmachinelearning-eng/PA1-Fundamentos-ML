@@ -1,0 +1,34 @@
+{
+  "modelo": "RandomForestClassifier",
+  "hiperparametros": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 5,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "metricas_prueba": {
+    "exactitud (accuracy)": 0.77,
+    "precisión (precision)": 0.5477,
+    "sensibilidad (recall)": 0.7674,
+    "especificidad": 0.771,
+    "F1": 0.6392,
+    "AUC-ROC": 0.8458
+  },
+  "auc_validacion_cruzada": 0.846,
+  "scikit_learn": "1.6.1"
+}
